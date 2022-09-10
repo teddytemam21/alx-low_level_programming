@@ -8,13 +8,12 @@
  */
 int main(void)
 {
-       	char ch;
+	char low;
+	for (low = 'a' ; low <= 'z' ; low++)
+		
+		putchar(low);
+		printf("\n");
 
-	{
-		for (ch = 'a'; ch <= 'z' ; ch++)
-
-		 putchar(ch);
-		 printf("\n");
-	}
-return (0);
+	return (0);
 }
+	     
