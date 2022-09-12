@@ -6,7 +6,8 @@
  * this program prints "programing is like building a multilingual puzzle"
  * Returb: 0
  */
-int main(void)
+int main (void)
+
 {
 	puts("\"Programming is like building a multilingual puzzle");
 
