@@ -1,13 +1,16 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * * _abs -> prints absolute value of a number
  * * @n: parameter
  * * Return: absolute value of a number
  */
-int print_sign(int n)
+int _abs(int c)
 {
-	if (n < 0)
-		n = -n;
-	return (n);
+	if (c > 0 || c == 0)
+	{
+	return (c);
+	}
+	else
+	return (c * -1);
 }
