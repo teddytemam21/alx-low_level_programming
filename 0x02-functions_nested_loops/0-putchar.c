@@ -1,9 +1,13 @@
-#include <stdio.h>
+#include <unistd.h>
+/**
+ * _putchar -write the character c to stdout
+ * 0c:the character to print
+ *
+ * Return: 0n success i.
+ */
 
-int main(void)
+int putchar(char c)
 
 {
-printf("putchar\n");
-
-return 0
+return (write(1, &c, 1));
 }	
